@@ -1,0 +1,5 @@
+# Meteor files to ignore now handled by .ignore file within .Meteor folder automatically
+
+# npm package files to ignore
+node_modules/
+npm-debug.log
