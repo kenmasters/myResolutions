@@ -1,5 +1,9 @@
 ## Meteor + React Project Setup
 
+## Installation
+meteor npm install
+meteor
+
 ## Stack
  - Meteor
  	- Kadira Flow Router
