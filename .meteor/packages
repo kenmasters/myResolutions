@@ -20,5 +20,11 @@ shell-server@0.2.2            # Server-side component of the `meteor shell` comm
 
 autopublish@1.0.7             # Publish all data to the clients (for prototyping)
 insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
+<<<<<<< HEAD
 kadira:flow-router			  # Client side routing
 meteortoys:allthings
+=======
+kadira:flow-router
+meteortoys:allthings
+twbs:bootstrap
+>>>>>>> e674ea2498ca695cf19a3787a4c5128ebff640f6
