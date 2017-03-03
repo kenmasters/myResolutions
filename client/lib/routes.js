@@ -6,10 +6,21 @@ import App from '../App';
 import NotFound from '../404';
 
 
-// Home route
 FlowRouter.route('/', {
 	action: () => {
 		mount( MainLayout, { content: <App /> });
+	},
+
+	triggersEnter: [
+		function() { console.log(1); },
+		function() { console.log(2); }
+	]
+	
+});
+
+FlowRouter.route('/dashboard', {
+	action: () => {
+		
 	},
 
 	triggersEnter: [
