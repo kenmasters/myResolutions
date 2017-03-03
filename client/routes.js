@@ -14,9 +14,9 @@ FlowRouter.route('/', {
 });
 
 // 404 route
-FlowRouter.route('/*', {
+FlowRouter.notFound = {
 	// what will happen when we hit this route
 	action(params) {
 		mount( MainLayout, { content: <NotFound /> });
 	}
-});
+};
