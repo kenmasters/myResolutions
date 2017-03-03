@@ -8,30 +8,38 @@ import NotFound from '../404';
 
 // Home route
 FlowRouter.route('/', {
-	action: function() {
+	action: () => {
 		mount( MainLayout, { content: <App /> });
 	},
 
 	triggersEnter: [
 		function() { console.log(1); },
 		function() { console.log(2); }
-
 	]
-	//,() {
-	// 	action_A() {
-	// 		console.log(1);
-	// 	}
+	
+});
 
-	// 	action_B() {
-	// 		console.log(2);
-	// 	}
-	// }
+// Users
+let users = FlowRouter.group({
+	prefix: '/users',
+	name: 'users',
+	triggersEnter: [
+		function() {}  // Do something
+	], 
+	triggersExit: [
+		function() {}  // Do something
+	]
+});
+
+users.route('/', {
+	action: (params, queryParams) => {
+		console.log('Lists all users');
+	}
 });
 
 // 404 route
 FlowRouter.notFound = {
-	// what will happen when we hit this route
-	action(params) {
+	action: (params) => {
 		mount( MainLayout, { content: <NotFound /> });
 	}
 };
