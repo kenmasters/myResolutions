@@ -270,7 +270,8 @@ html {
 
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 0.875rem;
+  /*font-size: 0.875rem;*/
+  font-size: 14px;
   font-weight: normal;
   line-height: 1.5;
   color: #263238;
