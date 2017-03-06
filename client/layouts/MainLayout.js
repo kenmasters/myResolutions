@@ -53,22 +53,23 @@ const MainLayout = ({content}) => {
 				<div className="sidebar">
 				<nav className="sidebar-nav">
 				<ul className="nav">
-				<li className="nav-item"><a className="nav-link" href="#/dashboard"><i className="icon-speedometer"></i>Dashboard<span className="badge badge-info">NEW</span></a></li><li className="nav-title">UI Elements</li>
+				<li className="nav-item"><a className="nav-link" href="#/dashboard"><i className="icon-speedometer"></i>Dashboard<span className="badge badge-info">NEW</span></a></li>
+				<li className="nav-title">UI Elements</li>
 				<li className="nav-item nav-dropdown"><a className="nav-link nav-dropdown-toggle" href="#"><i className="icon-puzzle"></i>Components</a>
-				<ul className="nav-dropdown-items">
-				<li className="nav-item"><a className="nav-link" href="#/components/buttons"><i className="icon-puzzle"></i>Buttons</a></li>
-				<li className="nav-item"><a className="nav-link" href="#/components/social-buttons"><i className="icon-puzzle"></i>Social Buttons</a></li>
-				<li className="nav-item"><a className="nav-link" href="#/components/cards"><i className="icon-puzzle"></i>Cards</a></li>
-				<li className="nav-item"><a className="nav-link" href="#/components/forms"><i className="icon-puzzle"></i>Forms</a></li>
-				<li className="nav-item"><a className="nav-link" href="#/components/modals"><i className="icon-puzzle"></i>Modals</a></li>
-				<li className="nav-item"><a className="nav-link" href="#/components/switches"><i className="icon-puzzle"></i>Switches</a></li>
-				<li className="nav-item"><a className="nav-link" href="#/components/tables"><i className="icon-puzzle"></i>Tables</a></li>
-				<li className="nav-item"><a className="nav-link" href="#/components/tabs"><i className="icon-puzzle"></i>Tabs</a></li></ul></li>
-				<li className="nav-item nav-dropdown"><a className="nav-link nav-dropdown-toggle" href="#"><i className="icon-star"></i>Icons</a>
-				<ul className="nav-dropdown-items">
-				<li className="nav-item"><a className="nav-link" href="#/icons/font-awesome"><i className="icon-star"></i>Font Awesome</a></li>
-				<li className="nav-item"><a className="nav-link" href="#/icons/simple-line-icons"><i className="icon-star"></i>Simple Line Icons</a></li>
-				</ul>
+					<ul className="nav-dropdown-items">
+						<li className="nav-item"><a className="nav-link" href="#/components/buttons"><i className="icon-puzzle"></i>Buttons</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/components/social-buttons"><i className="icon-puzzle"></i>Social Buttons</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/components/cards"><i className="icon-puzzle"></i>Cards</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/components/forms"><i className="icon-puzzle"></i>Forms</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/components/modals"><i className="icon-puzzle"></i>Modals</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/components/switches"><i className="icon-puzzle"></i>Switches</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/components/tables"><i className="icon-puzzle"></i>Tables</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/components/tabs"><i className="icon-puzzle"></i>Tabs</a></li></ul></li>
+						<li className="nav-item nav-dropdown"><a className="nav-link nav-dropdown-toggle" href="#"><i className="icon-star"></i>Icons</a>
+						<ul className="nav-dropdown-items">
+						<li className="nav-item"><a className="nav-link" href="#/icons/font-awesome"><i className="icon-star"></i>Font Awesome</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/icons/simple-line-icons"><i className="icon-star"></i>Simple Line Icons</a></li>
+					</ul>
 				</li>
 				<li className="nav-item"><a className="nav-link" href="#/widgets"><i className="icon-calculator"></i>Widgets<span className="badge badge-info">NEW</span></a></li>
 				<li className="nav-item"><a className="nav-link" href="#/charts"><i className="icon-pie-chart"></i>Charts</a></li>
@@ -76,10 +77,10 @@ const MainLayout = ({content}) => {
 				<li className="nav-title">Extras</li>
 				<li className="nav-item nav-dropdown open"><a className="nav-link nav-dropdown-toggle" href="#"><i className="icon-star"></i>Pages</a>
 					<ul className="nav-dropdown-items">
-					<li className="nav-item"><a className="nav-link" href="#/pages/login"><i className="icon-star"></i>Login</a></li>
-					<li className="nav-item"><a className="nav-link" href="#/pages/register"><i className="icon-star"></i>Register</a></li>
-					<li className="nav-item"><a className="nav-link" href="#/pages/404"><i className="icon-star"></i>Error 404</a></li>
-					<li className="nav-item"><a className="nav-link" href="#/pages/500"><i className="icon-star"></i>Error 500</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/pages/login"><i className="icon-star"></i>Login</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/pages/register"><i className="icon-star"></i>Register</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/pages/404"><i className="icon-star"></i>Error 404</a></li>
+						<li className="nav-item"><a className="nav-link" href="#/pages/500"><i className="icon-star"></i>Error 500</a></li>
 					</ul>
 				</li>
 				<li className="divider"></li>
