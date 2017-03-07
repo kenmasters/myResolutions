@@ -1,3 +1,41 @@
+
+
 html {
   font-size: 100%
+}
+
+/*.sidebar .sidebar-nav {
+  width: 220px
+}
+
+.sidebar-fixed .main, .sidebar-fixed .app-footer {
+    margin-left: 220px;
+}
+
+*/
+.user-panel {
+    padding: 10px;
+    display: flex;
+}
+
+.user-panel .info {
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.user-panel .info p{
+    margin-bottom: 0;
+}
+
+.user-panel .info span{
+	font-size: .75rem;
+}
+ 
+.user-panel > .image > img {
+    width: 45px;
+    height: 45px;
+}
+
+.img-circle {
+    border-radius: 50%;
 }

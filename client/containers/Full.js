@@ -27,10 +27,11 @@ const Full = ({content}) => {
               params={this.props.params}
             />
           */}
+
             <div className="container-fluid">
-              {/*this.props.children*/}
               {content}
             </div>
+            
           </main>
 
           {/*<Aside />*/}

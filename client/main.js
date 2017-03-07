@@ -1,5 +1,3 @@
-// CLIENT MAIN ENTRY FILE
+import { Mongo } from 'meteor/mongo';
 
-
-
-
+const Resolutions = new Mongo.Collection("resolutions");

@@ -10,23 +10,17 @@ import Full from '../containers/Full';
 import Dashboard from '../views/Dashboard'
 import Employees from '../views/Employees'
 
-
-
-const WelcomeComponent = ({name}) => (<p>Hello, {name}</p>);
-
-
 FlowRouter.route('/', {
 	name: "home",
 	action: () => {
-		mount(Full, { content: <Dashboard /> });
+		mount( Full, { content: <Dashboard /> } );
 	}
 });
-
 
 FlowRouter.route('/employees', {
 	name: "employees",
 	action: () => {
-		mount(Full, { content: <Employees /> });
+		mount( Full, { content: <Employees /> } );
 	}
 });
 
